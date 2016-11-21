@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/plantnew"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+
+
+    tools:context="com.lotusbeta.agentbank.reviewBankAccount">
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:id="@+id/disappear"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/detailsReview"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Title"
+            android:id="@+id/Title"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_below="@+id/Title"
+            android:text="Surname"
+            android:id="@+id/surname"
+
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Firstname"
+            android:id="@+id/firstname"
+            android:layout_below="@+id/surname"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Other Name"
+            android:id="@+id/othername"
+            android:layout_below="@+id/firstname"
+
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Gender"
+            android:id="@+id/genderReview"
+            android:layout_below="@+id/othername"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Place of Birth"
+            android:id="@+id/placeOfBirthReview"
+            android:layout_below="@+id/genderReview"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Date of Birth"
+            android:id="@+id/dobReview"
+            android:layout_below="@+id/placeOfBirthReview"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Home Address"
+            android:id="@+id/addressReview"
+            android:layout_below="@+id/dobReview"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="State of Origin"
+            android:id="@+id/stateOfOriginReview"
+            android:layout_below="@+id/addressReview"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="LGA"
+            android:id="@+id/lgaReview"
+            android:layout_below="@+id/stateOfOriginReview"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Telephone"
+            android:id="@+id/telephoneReview"
+            android:layout_below="@+id/lgaReview"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="emailAddress"
+            android:id="@+id/emailReview"
+            android:layout_below="@+id/telephoneReview"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Occupation"
+            android:id="@+id/occupationReview"
+            android:layout_below="@+id/emailReview"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Account Services"
+            android:id="@+id/accountServicesReview"
+            android:layout_below="@+id/occupationReview"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Account Type"
+            android:id="@+id/accountTypeReview"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/signatureAndPicture">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="120dp"
+            android:id="@+id/signature"
+            android:minWidth="150dp"
+            android:minHeight="150dp"
+            android:maxHeight="120dp"
+            android:maxWidth="150dp"
+            android:background="@drawable/signaturelogo"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="64dp" />
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="120dp"
+            android:id="@+id/pictureTaken"
+            android:background="@drawable/adduser"
+            android:minWidth="150dp"
+            android:minHeight="150dp"
+            android:maxHeight="120dp"
+            android:maxWidth="150dp"
+            android:contentDescription="@string/pictureTaken"
+            android:layout_alignTop="@+id/signature"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:id="@+id/signCanvas"
+        android:visibility="invisible"
+        android:layout_height="match_parent">
+
+        <android.gesture.GestureOverlayView
+            android:id="@+id/signaturePad"
+            android:layout_width="320dp"
+            android:layout_height="320dp"
+            android:minWidth="100dp"
+            android:minHeight="100dp"
+            android:maxHeight="100dp"
+            android:maxWidth="100dp"
+            android:eventsInterceptionEnabled="true"
+            android:fadeEnabled="false"
+            android:gestureColor="#060805"
+            android:gestureStrokeLengthThreshold="0.00001"
+            android:gestureStrokeType="multiple"
+            android:orientation="vertical"
+            android:background="#fbffca"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true">
+        </android.gesture.GestureOverlayView>
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CAPTURE"
+            android:id="@+id/signatureButton"
+            android:width="160dp"
+            android:onClick="saveSig"
+            android:layout_below="@+id/signaturePad"
+            android:layout_toLeftOf="@+id/submitRegDetails"
+            android:layout_toStartOf="@+id/submitRegDetails" />
+
+        <Button
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MENU"
+            android:id="@+id/submitRegDetails"
+            android:width="160dp"
+            android:layout_alignRight="@+id/signaturePad"
+            android:layout_alignEnd="@+id/signaturePad"
+            android:layout_below="@+id/signaturePad" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sign Below"
+            android:id="@+id/signLabel"
+
+            android:layout_above="@+id/signaturePad"
+            android:layout_centerHorizontal="true" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/signImage"
+            android:layout_below="@+id/signatureButton"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+    </RelativeLayout>
+</RelativeLayout>

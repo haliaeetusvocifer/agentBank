@@ -1,0 +1,69 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="@drawable/plantnew"
+    tools:context="com.lotusbeta.agentbank.Login">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/SignInTitle"
+        android:id="@+id/textView"
+        android:layout_marginTop="80dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/accountName"
+        android:layout_alignStart="@+id/accountName" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/accountName"
+        android:layout_marginTop="43dp"
+        android:width="320dp"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/accountNumber"
+        android:layout_below="@+id/accountName"
+        android:layout_marginTop="46dp"
+        android:width="320dp"
+        android:layout_alignRight="@+id/accountName"
+        android:layout_alignEnd="@+id/accountName"
+        android:layout_alignLeft="@+id/accountName"
+        android:layout_alignStart="@+id/accountName" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/LogInButton"
+        android:id="@+id/debitButton"
+        android:layout_below="@+id/accountNumber"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="43dp"
+        android:width="160dp"
+        android:backgroundTint="#67767f"
+        android:foregroundTint="#a7c837"
+        android:foreground="#a7c837" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxWidth="400dp"
+        android:id="@+id/imageView"
+        android:src="@drawable/unityheader"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>

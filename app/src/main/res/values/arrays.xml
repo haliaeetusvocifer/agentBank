@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="title">
+        <item>Miss</item>
+        <item>Mr</item>
+        <item>Mrs</item>
+    </string-array>
+
+
+    <string-array name="gender">
+        <item>Gender</item>
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+    <string-array name="maritalStatus">
+        <item>Marital Status</item>
+        <item>Single</item>
+        <item>Married</item>
+        <item>Divorced</item>
+        <item>Widowed</item>
+    </string-array>
+
+    <string-array name="nationality">
+        <item>Nigerian</item>
+        <item>Non Nigerian</item>
+    </string-array>
+
+    <string-array name="accountTypeWallet">
+        <item>Wallet</item>
+    </string-array>
+
+    <string-array name="accountTypeBankAccount">
+
+        <item>Bank Account</item>
+
+    </string-array>
+
+    <string-array name="accountServices">
+        <item>Choose A Card Type</item>
+        <item>MasterCard</item>
+        <item>Verve</item>
+    </string-array>
+
+    <string-array name="state">
+        <item>State of Origin</item>
+        <item> Abia </item>
+        <item>Adamawa</item>
+        <item>Anambra</item>
+        <item>Akwa ibom</item>
+        <item>Bauchi</item>
+        <item>Bayelsa</item>
+        <item>benue</item>
+        <item>Borno</item>
+        <item>cross river</item>
+        <item>Delta</item>
+        <item>Ebonyi</item>
+        <item>Enugu</item>
+        <item>Edo</item>
+        <item>Ekiti</item>
+        <item>Gombe</item>
+        <item>Imo</item>
+        <item>Jigawa</item>
+        <item>Kaduna</item>
+        <item>kanu</item>
+        <item>Katsina</item>
+        <item>Kebbi</item>
+        <item>Kogi</item>
+        <item>Kwara</item>
+        <item>Lagos</item>
+        <item>Nasarawa</item>
+        <item>Niger</item>
+        <item>Ogun</item>
+        <item>Ondo</item>
+        <item>Osun</item>
+        <item>Oyo</item>
+        <item>Plateau</item>
+        <item>Rivers</item>
+        <item>Sokoto</item>
+        <item>Taraba</item>
+        <item>Yoba</item>
+        <item>Zamfara</item>
+
+
+    </string-array>
+</resources>

@@ -1,0 +1,82 @@
+<resources>
+    <string name="app_name">AgentBank</string>
+    <string name="title_activity_login">Login</string>
+
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="SignInTitle">Sign in</string>
+    <string name="LogInButton">LOGIN</string>
+    <string name="title_activity_menu">menu</string>
+    <string name="register">Register</string>
+    <string name="withdrawal">Withdrawal</string>
+    <string name="deposit">Deposit</string>
+    <string name="loan">Loan</string>
+    <string name="topup">Top Up</string>
+    <string name="enquiry">Enquiry</string>
+    <string name="title_activity_registration">Registration</string>
+    <string name="surname">Surname</string>
+    <string name="firstname">FirstName</string>
+    <string name="othername">Other Name</string>
+    <string name="address">Home Address</string>
+    <string name="telephone">Telephone</string>
+    <string name="email">Email Address</string>
+    <string name="status">Status</string>
+    <string name="nok">Next of Kin</string>
+    <string name="relationship">Relationship with Next of Kin</string>
+    <string name="state">State</string>
+    <string name="lga">LGA</string>
+    <string name="nationality">Nationality</string>
+    <string name="signature">Signature</string>
+    <string name="picture">Take Picture</string>
+    <string name="pictureTaken">picture taken</string>
+    <string name="title_activity_deposit">Bank Account</string>
+    <string name="Name">Account Name</string>
+    <string name="AccountNumber">Account Number</string>
+    <string name="DepositorName">Depositor Name</string>
+    <string name="DepositPhone">Depositor Phone Number</string>
+    <string name="AmountWord">Amount (In words)</string>
+    <string name="AmountFigure">Amount (In figures)</string>
+    <string name="Deposit">Deposit</string>
+    <string name="title_activity_withdrawal">Withdrawal</string>
+    <string name="title_activity_loan">Loan</string>
+    <string name="title_activity_enquiry">Enquiry</string>
+<string name="title">Title</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+<string name="stateOfOrigin">State of Origin</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_example">Example action</string>
+    <string name="title_activity_mobile_top_up">MobileTopUp</string>
+    <string name="menu">Menu</string>
+    <string name="submit">SUBMIT</string>
+    <string name="subject">Subject</string>
+    <string name="message">Message</string>
+    <string name="reason">Reason for Loan</string>
+    <string name="depositMenuButton">deposit</string>
+    <string name="loanMenuButton">loan</string>
+    <string name="withdrawalMenuButton">withdrawal</string>
+    <string name="registerMenuButton">register</string>
+    <string name="enquiryMenuButton">enquiry</string>
+    <string name="topMenuButton">topup</string>
+    <string name="recharge">RECHARGE</string>
+    <string name="mobileNumber">Mobile Number</string>
+    <string name="amount">Amount</string>
+    <string name="withdraw">Withdraw</string>
+    <string name="title_activity_biometric">Biometric</string>
+    <string name="next">Next</string>
+    <string name="title_activity_register">Register</string>
+    <string name="gender">Gender</string>
+    <string name="dob">Date of Birth</string>
+    <string name="dateOfBirth">Date of Birth</string>
+    <string name="placeOfBirth">Place of Birth</string>
+    <string name="maritalStatus">Marital Status</string>
+    <string name="motherMaidenName">Mother\'s Maiden Name</string>
+    <string name="occupation">Occupation</string>
+    <string name="title_activity_review">review</string>
+
+
+</resources>

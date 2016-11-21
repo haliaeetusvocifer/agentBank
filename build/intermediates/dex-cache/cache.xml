@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\haziz\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.2.1\support-annotations-22.2.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="61a0ff5c29295ec56d7e0bd3d25d95dbf71b4b2b">
+        <dex dex="C:\Users\haziz\AndroidStudioProjects\AgentBank\app\build\intermediates\pre-dexed\debug\support-annotations-22.2.1-14de797daba92e693606f1ac3174032a6feb663d.jar" />
+    </item>
+    <item
+        jar="C:\Users\haziz\AndroidStudioProjects\AgentBank\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="f8efd0096475e0daf054267b61544e10dc776503">
+        <dex dex="C:\Users\haziz\AndroidStudioProjects\AgentBank\app\build\intermediates\pre-dexed\debug\classes-debba60503e5a62505bffb8bf6b5167a2b011ca9.jar" />
+    </item>
+    <item
+        jar="C:\Users\haziz\AndroidStudioProjects\AgentBank\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\jars\libs\internal_impl-22.2.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="c471eaaba13ff64f6e0383d1c30a9cdc9a97efeb">
+        <dex dex="C:\Users\haziz\AndroidStudioProjects\AgentBank\app\build\intermediates\pre-dexed\debug\internal_impl-22.2.1-8bed848184f65a476f724068fe481c27eca92fc1.jar" />
+    </item>
+    <item
+        jar="C:\Users\haziz\AndroidStudioProjects\AgentBank\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="4486e953d1f35f8ccab098b1dd67146366d5f731">
+        <dex dex="C:\Users\haziz\AndroidStudioProjects\AgentBank\app\build\intermediates\pre-dexed\debug\classes-8aeb9070f8298c62a6b3f490b3e8d936675ecf5d.jar" />
+    </item>
+    <item
+        jar="C:\Users\haziz\AndroidStudioProjects\AgentBank\app\build\intermediates\exploded-aar\com.android.support\design\22.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1821601ddbec5ff125653097812823388700af74">
+        <dex dex="C:\Users\haziz\AndroidStudioProjects\AgentBank\app\build\intermediates\pre-dexed\debug\classes-a2b9f02d49c74468d73b34ee974b2823ea923e5b.jar" />
+    </item>
+    <item
+        jar="C:\Users\haziz\AndroidStudioProjects\AgentBank\app\libs\ksoap2-android-2.5.2.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="b2dba1c1872c937f0b0a5b10cb03f8e9f2c9e747">
+        <dex dex="C:\Users\haziz\AndroidStudioProjects\AgentBank\app\build\intermediates\pre-dexed\debug\ksoap2-android-2.5.2-8691c69ff0b04fbc16c7c42d798406de21f7694e.jar" />
+    </item>
+
+</items>
